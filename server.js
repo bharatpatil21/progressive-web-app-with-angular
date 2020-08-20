@@ -14,10 +14,10 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());//cross origin requests
 
 if(process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname,'client/build')));
+    app.use(express.static(path.join(__dirname,'client/build/progressive-web-app-with-angular')));
 
     app.get('*',function(req,res){
-        res.sendFile(path.join(__dirname,'client/build','index.html'));
+        res.sendFile(path.join(__dirname,'client/build/progressive-web-app-with-angular','index.html'));
     });
 }
 
