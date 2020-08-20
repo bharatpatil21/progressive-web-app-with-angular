@@ -1,35 +1,27 @@
+# ProgressiveWebAppWithAngular
 
-### [Demo](https://ecommerce-clothing-react-app.herokuapp.com)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
-This project was ecommerce react app (https://github.com/bharatpatil21/ecommerce-clothing-react-app).
+## Development server
 
-## Available Scripts
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### `git clone https://github.com/bharatpatil21/ecommerce-clothing-react-app`
+## Code scaffolding
 
-Clone repo with gitbash and cmd.<br />
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-In the project directory, you can run:
+## Build
 
-### `npm run server`
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running unit tests
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### `cd client; npm run build`
+## Running end-to-end tests
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Further help
 
-
-## Sample images
-
-|<img src="client/src/assets/app-image/home-page.PNG" height="250" width="400">|<img src="client/src/assets/app-image/shop-page.PNG" height="250" width="400">|
-|<img src="client/src/assets/app-image/signin-page.PNG" height="250" width="400">|<img src="client/src/assets/app-image/cart-popup.PNG" height="250" width="400">|
-|<img src="client/src/assets/app-image/check-out-page.PNG" height="250" width="400">|
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
